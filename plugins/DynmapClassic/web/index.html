@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+<title>Vio's Arcade Dynamic Map</title>
+<link rel="stylesheet" href="/web/css/leaflet.css"><link rel="stylesheet" href="/web/css/map.css">
+</head><body>
+<main id="map"></main>
+<aside id="sidebar">
+  <header><strong>Vio's Arcade</strong><span>MCGalaxy Dynamic Map</span></header>
+  <section><h2>Worlds</h2><select id="world"></select></section>
+  <section><h2>Map type</h2><div id="views"></div></section>
+  <section class="switch-row"><label for="border">Show world border</label><input id="border" type="checkbox"></section>
+  <section class="switch-row"><label for="bots">Show bots</label><input id="bots" type="checkbox" checked></section>
+  <section class="switch-row"><label for="mobs">Show mobs</label><input id="mobs" type="checkbox" checked></section>
+  <section class="switch-row"><label for="showPlayers">Show players</label><input id="showPlayers" type="checkbox" checked></section>
+  <section><h2>Players</h2><div id="players"></div></section>
+  <footer id="status">Connecting...</footer>
+</aside>
+<button id="sidebarToggle" title="Toggle sidebar" aria-label="Toggle sidebar">&#9776;</button>
+<script src="/web/js/leaflet.js"></script><script src="/web/js/map.js?v=20261002-1"></script>
+</body></html>

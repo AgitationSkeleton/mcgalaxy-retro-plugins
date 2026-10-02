@@ -1,0 +1,16 @@
+# Runtime output and private server state
+**/renders/
+**/work/
+*.log
+*.pdb
+
+# Proprietary/user-supplied game assets
+**/in-*.jar
+**/default.zip
+**/textures.zip
+**/terrain.png
+
+# Build scratch files
+**/bridge-bin/
+*.tmp
+
